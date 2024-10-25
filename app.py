@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from shiny.express import ui, input, render
 
-# Set page options including a title with your name
 ui.page_opts(title="Bin's Interactive Histogram App", fillable=True)
 
 # Sidebar with an interactive slider to control the histogram's bin count
